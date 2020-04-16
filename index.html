@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Layout</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Knewave&family=Lato&family=Molle&family=Timmana&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/countries-data.js"></script>
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container titleWapper">
+        <h1>
+          <img height="75" width="75" src="images/Pmint.png" />
+          <a class="okokok" href="index.html"> The Candy story</a>
+          <img height="75" width="75" src="images/Pmint.png" />
+        </h1>
+        <p class="lol"><a href="contacte.html"> Contacte</a></p>
+      </div>
+    </header>
+    <div class="container">
+      <aside class="col-1">
+        <h3>Navigation</h3>
+        <p class="nav" id="AllCandy">All Candy</p>
+        <p class="nav" id="SoftCandy">Soft Candy</p>
+        <p class="nav" id="HardCandy">Hard Candy</p>
+      </aside>
+      <section class="main col-2">
+        <h2 class="a2" id="CandyTitle">All Candy</h2>
+
+        <div class="wrapper" id="Death"></div>
+      </section>
+      <div class="clear"></div>
+      <footer>
+        <h1 class="footTitle">The Candy Store</h1>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" />
+        </div>
+        <div>
+          <label for="mail">E-mail:</label>
+          <input type="email" id="mail" name="email" />
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea>
+        </div>
+
+        <div class="button">
+          <button type="submit">Send your message</button>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

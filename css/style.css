@@ -1,0 +1,193 @@
+body {
+  background-color: #fae3d9;
+}
+.container {
+  width: auto;
+  margin: auto;
+  scroll-margin-block: 300px;
+  padding: 0 2em 2em 2em;
+  background-color: #ffb6b9;
+  border: 5px solid #8ac6d1;
+}
+.containerCon {
+  width: auto;
+  margin: auto;
+  scroll-margin-block: 300px;
+  padding: 0 2em 2em 2em;
+  background-color: #ffb6b9;
+  border: 5px solid #8ac6d1;
+}
+.col-1 {
+  border: 2px solid black;
+  width: 13%;
+  font-size: 2em;
+  float: left;
+  background-color: #bbded6;
+  padding: 1em;
+  margin: 3em 1em 1em 1em;
+}
+.bigDiv {
+  border: 20px #000;
+
+  float: right;
+}
+.col-2Con {
+  border: #000;
+  width: 78%;
+  float: center;
+  margin: 1em;
+}
+.clear {
+  clear: both;
+}
+.a1 {
+  background-color: #fe346e;
+}
+
+.a2 {
+  padding: 0;
+  margin: 0;
+  font-family: 'Knewave', sans-serif;
+  font-size: 4em;
+  text-align: center;
+}
+footer {
+  display: grid;
+  border: 10px #000;
+  float: center;
+  padding: 2em;
+  margin: 20px;
+  background-color: rgb(213, 153, 248);
+}
+
+.wrapper {
+  
+  border: 5px solid #8ac6d1;
+  background-color: #be6fff;
+  display: grid;
+}
+
+.titleWapper {
+  background-color: rgb(248, 188, 193);
+  border: 5px solid #4783f1cb;
+  margin-bottom: 20px;
+}
+.box {
+  border: 5px solid black;
+  background-color: #00d9ff;
+  padding: 0;
+  margin: 0;
+  color: #000000;
+  grid-template-columns: 250px 1fr;
+  grid-template-rows: 125px 125px;
+  display: grid;
+}
+
+.nested {
+  border-left: 3px solid black;
+  background-color: #fcbdf6;
+  padding: 5px;
+  margin: 0;
+}
+.nestedimg {
+  padding: 0;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+p {
+  margin: 0;
+  font-family: 'Timmana', sans-serif;
+}
+.subHeader {
+  padding: 0;
+  margin: 0;
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+}
+h3 {
+  padding: 0;
+  text-align: center;
+  font-family: 'Timmana', sans-serif;
+}
+h1 {
+  padding: 0;
+  margin: 0;
+  font-family: 'Knewave', sans-serif;
+  text-align: center;
+  font-size: 7em;
+  font-weight: bold;
+  color: black;
+}
+p.lol {
+  padding: 0;
+  text-align: center;
+  margin: auto;
+}
+p.lol:hover {
+  color: hotpink;
+  cursor: pointer;
+}
+p.nav:hover {
+  color: hotpink;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+.okokok:hover {
+  color: hotpink;
+  cursor: pointer;
+}
+h1:hover {
+  color: hotpink;
+  cursor: pointer;
+}
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+
+  height: 5em;
+
+  resize: vertical;
+}
+
+.button {
+  padding-left: 90px;
+}
+button {
+  margin-left: 0.5em;
+}
+
+.footTitle {
+  font-size: 3em;
+}
